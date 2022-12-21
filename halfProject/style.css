@@ -1,0 +1,57 @@
+body{
+  background-image: url(images/pexels-marina-leonova-7634436.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.text_shadow{
+    text-shadow: 2px 2px 2px white;
+}
+ul li a{
+    margin-left: 24px;
+    color: black;
+}
+
+main strong{
+    font-size: larger;
+    
+}
+
+@media (max-width:768px){
+    ul li a{
+       align-items: center;
+       text-align: center;
+       /* font-size: 2.25em; */
+       cursor: pointer;
+
+    }
+    .listcantry{
+        display: none;
+       
+    }
+   
+    .listcantry ul{
+
+        position: absolute;
+       
+        top: 60px;
+        right: 0;
+        width: 100%;
+        display: block;
+        margin: 0;
+        /* display: ; */
+        
+        
+      
+    }
+    main p{
+        padding-left: 100px;
+    }
+    .listcantry ul li{
+        
+        border-bottom: 1px solid grey;
+    }
+    .borderCuntry{
+        margin-left: 100px;
+    }
+}
